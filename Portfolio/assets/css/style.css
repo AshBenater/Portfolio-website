@@ -757,6 +757,7 @@ section {
   transition: all 0.3s ease-in-out;
   text-align: center;
   border: 1px solid #fff;
+  width: 100%;
 }
 
 .certificates .icon {
@@ -1399,4 +1400,12 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+# Sections background 
+--------------------------------------------------------------*/
+
+section#skills, section#certificates, section#contact {
+  background-color: #f8f7f8;
 }
