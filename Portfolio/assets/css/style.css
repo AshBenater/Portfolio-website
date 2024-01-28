@@ -603,7 +603,7 @@ section {
 
 .about .image {
   background: url("../img/me.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: contain;
   min-height: 500px;
 }
 
@@ -662,6 +662,9 @@ section {
   height: 200px;
 }
 
+.text-padding {
+  padding: 10%;
+}
 
 /*--------------------------------------------------------------
 # My Skills
