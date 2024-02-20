@@ -5,6 +5,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
+  /**
+   * Preloader helper function
+   */
+// Wait for the window to load
+window.addEventListener('load', function () {
+  // Select the preloader element
+  var preloader = document.getElementById('preloader');
+  // Hide the preloader by removing it from the DOM
+  preloader.parentNode.removeChild(preloader);
+});
+
 (function() {
   "use strict";
 
